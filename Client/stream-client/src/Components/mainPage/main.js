@@ -5,7 +5,16 @@ import {Link} from 'react-router-dom'
 
 function MainPage(){
     return(
-        <CardGroup>
+      <div>
+
+      <div style={{"textAlign":"center","paddingBottom":"1%"}}>
+      <Button size="lg" color="primary">
+            <a style={{"textDecoration":"inherit","color":"inherit"}} href="https://forms.gle/KsdRHo19q4jszwB48">Please vote for which stream you liked best!</a>
+      </Button>
+      </div>
+      
+      <div style={{"margin":"2%","paddingBottom":"10%"}}>
+      <CardGroup>
       <Card>
         <CardImg
           alt="Card image cap"
@@ -88,7 +97,8 @@ function MainPage(){
         </CardBody>
       </Card>
     </CardGroup>
-
+    </div>
+    </div>
     )
 }
 
